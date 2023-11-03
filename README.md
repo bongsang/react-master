@@ -1,4 +1,4 @@
-# 웹 풀스택 마스터
+# KAIST 웹 풀스택 마스터
 ## HTML, CSS, Tailwind, Javascript Typescript, React, and Next.js
 
 ### 1. HTML
