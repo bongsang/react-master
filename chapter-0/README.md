@@ -43,9 +43,36 @@ nvm-setup.exe
 ```
 # 현재 내 PC에 설치된 Node.js가 있는지 알아보기
 > nvm list
-* 18.17.1 (Currently using 64-bit executable) # example
+* 18.17.1 (Currently using 64-bit executable)
 
+# 설치 가능한 모든 버젼 알아보기
+> nvm list available
+|   CURRENT    |     LTS      |  OLD STABLE  | OLD UNSTABLE |
+|--------------|--------------|--------------|--------------|
+|    21.1.0    |    20.9.0    |   0.12.18    |   0.11.16    |
+|    21.0.0    |   18.18.2    |   0.12.17    |   0.11.15    |
+|    20.8.1    |   18.18.1    |   0.12.16    |   0.11.14    |
+|    20.8.0    |   18.18.0    |   0.12.15    |   0.11.13    |
+|    20.7.0    |   18.17.1    |   0.12.14    |   0.11.12    |
 
+# 최신 LTS(Long Term Support) 설치 권장
+> nvm install 20.9.0
+Downloading node.js version 20.9.0 (64-bit)... 
+Extracting node and npm...
+Complete
+npm v10.1.0 installed successfully.
+
+# 최신 설치 버젼 사용하기
+> nvm use 20.9.0
+Now using node v20.9.0 (64-bit)
+
+# 설치 확인하기
+> nvm list
+  * 20.9.0 (Currently using 64-bit executable)
+    18.17.1
+
+> node -v
+v20.9.0
 ```
 
 
