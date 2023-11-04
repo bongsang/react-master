@@ -1,4 +1,4 @@
-# 1인 스타트업을 위한 웹 풀스택 마스터
+# 최상위 1% 개발자를 위한 웹 풀스택 과정
 ## HTML, CSS, Tailwind, Javascript Typescript, React, and Next.js
 
 ### Chapter 0. 개발환경
